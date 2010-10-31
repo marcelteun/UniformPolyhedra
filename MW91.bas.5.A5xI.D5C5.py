@@ -34,7 +34,7 @@ print "Use A5xI | D5C5"
 print "where A5xI O3 = [1, 1, 1]"
 print "where A5xI O5 _|_ O3 =", C_scaled
 print "----------------------------"
-print "where D5xI O5 =", C_scaled
-print "where D5xI H2 _|_ O5 = [1, 0, 0]"
+print "where D5C5 O5 =", C_scaled
+print "where D5C5 H2 _|_ O5 = [1, 0, 0]"
 
 shape = Geom3D.SimpleShape(Vs = Vs, Fs = Fs)
