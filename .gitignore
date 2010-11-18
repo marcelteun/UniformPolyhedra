@@ -1,4 +1,5 @@
 .*.swp
+*.patch
 MW100.5_2.A5xI.D5C5.off
 MW100.5_2.A5xI.D5C5.py
 MW100.6.A5xI.D3C3.off
@@ -75,6 +76,8 @@ MW78.6.S4xI.D3xI.off
 MW79.6.S4xI.D3C3.off
 MW79.8.S4xI_D4C4.off
 MW79.8_3.S4xI_D4C4.off
+MW80.5.A5xI.D5C5.off
+MW80.5_2.A5xI.D5C5.off
 MW81.10_3.A5xI.D5C5.off
 MW81.3.A5xI.D3C3.off
 MW81.5.A5xI.D5C5.off
