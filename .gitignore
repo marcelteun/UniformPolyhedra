@@ -1,5 +1,8 @@
 .*.swp
 *.patch
+*.bac
+*.ps
+*.pdf
 MW100.5_2.A5xI.D5C5.off
 MW100.5_2.A5xI.D5C5.py
 MW100.6.A5xI.D3xI.off
@@ -128,17 +131,10 @@ MW93.6.S4xI_D3C3.off
 MW93.6.S4xI_D3C3.py
 MW93.8_3.S4xI_D4C4.off
 MW93.8_3.S4xI_D4C4.py
-MW93.ps
-MW93.tmpl.pdf
-MW93.tmpl.ps
-MW93.tmpl.ps.bac
 MW93.tmpl.tgz
 MW94.3.A5xI.D3C3.off
 MW94.5_2.A5xI.D5C5.off
 MW94.bas.off
-MW94.ps
-MW94.template.pdf
-MW94.template.ps
 MW95.5_2.A5xI.D5C5.off
 MW95.6.A5xI.D3C3.off
 MW96.4.A5xI.D2C2.off
