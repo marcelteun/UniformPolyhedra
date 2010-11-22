@@ -43,7 +43,7 @@ print "Use A5xI | D3C3"
 print "where A5xI O3 = [1, 1, 1]"
 print "where A5xI O5 _|_ O3 =", O5
 print "----------------------------"
-print "where D3xI O3 = ", [0, _tau, tau]
-print "where D3xI H2 _|_ O3 = [1, 0, 0]"
+print "where D3C3 O3 = ", [0, _tau, tau]
+print "where D3C3 H2 _|_ O3 = [1, 0, 0]"
 
 shape = Geom3D.SimpleShape(Vs = Vs, Fs = Fs)
