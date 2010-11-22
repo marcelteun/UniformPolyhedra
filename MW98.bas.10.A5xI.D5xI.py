@@ -55,9 +55,9 @@ Decagon = [
 
 ]
 
-l = len(Decagon)
-for i in range(l):
-    print "edge length:", (Decagon[i] - Decagon[(i+1)%l]).norm()
+#l = len(Decagon)
+#for i in range(l):
+#    print "edge length:", (Decagon[i] - Decagon[(i+1)%l]).norm()
 
 Fs = [
         [       0, 1, 2, 3, 4, 5, 6, 7, 8, 9,

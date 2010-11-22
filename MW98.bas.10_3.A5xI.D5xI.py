@@ -60,7 +60,7 @@ _tau2 = 2*tau - 3
 for i in range(l):
     diagonal = Geom3D.Line3D(Decagon[i], Decagon[(i+3)%l])
     decagon.append(diagonal.getPoint(_tau2))
-    print "edge length:", (Decagon[i] - Decagon[(i+3)%l]).norm()
+    #print "edge length:", (Decagon[i] - Decagon[(i+3)%l]).norm()
 
 Vs = []
 for i in range(l):

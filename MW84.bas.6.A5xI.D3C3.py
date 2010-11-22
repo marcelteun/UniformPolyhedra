@@ -41,9 +41,9 @@ Vs = [
 	GeomTypes.Vec3([-u,	-p,	 a2]),
 ]
 
-l = len(Vs)
-for i in range(l):
-    print "edge length:", (Vs[i] - Vs[(i+1)%l]).norm()
+#l = len(Vs)
+#for i in range(l):
+#    print "edge length:", (Vs[i] - Vs[(i+1)%l]).norm()
 
 Fs = [
         [0, 1, 2, 3, 4, 5],
