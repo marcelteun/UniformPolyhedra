@@ -36,8 +36,8 @@ l = len(Vs)
 for i in range(l):
     print "edge length:", (Vs[i] - Vs[(i+1)%l]).norm()
 
-for v in Vs:
-    print v
+#for v in Vs:
+#    print v
 
 Fs = [
         [0, 1, 2, 3, 4],
