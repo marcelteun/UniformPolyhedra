@@ -12,7 +12,7 @@ w = lambda x: math.pow(x, 1.0/3)
 
 # calculated with numpy from polynom with coefs: [tau, -1, +2, -1, 1 - tau]
 # source: wikipedia.org
-a = 0.79644210330606457
+a = 0.79644210330606457493018979221233
 b = (a*a/tau + tau) / (a*tau - _tau)
 A = [
      2*a,		 2,			2*b,
