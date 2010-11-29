@@ -8,7 +8,7 @@ _tau = tau - 1
 tau2 = tau + 1
 _tau2 = 2 - tau
 
-# calculated with numpy from polynom with coefs: [tau, -1, +2, -1, 1 - tau]
+# calculated with numpy from polynom with coefs: [1, 0, -1, -1]
 # source: wikipedia.org
 rho = 1.32471795724474517008673046802869
 rho2 = rho*rho
