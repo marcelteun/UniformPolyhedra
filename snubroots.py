@@ -15,13 +15,22 @@ print 'B = %.32f' % ((a*a/tau + tau) / (a*tau - 1.0/tau))
 print '^^^^^^^^^^^^^^^^^^^^^'
 
 mw112 =  poly1d([1, 0, -1, -1])
+print '---> roots:', mw112.r
 rho = mw112.r[0].real
 rho2 = rho*rho
 print mw112
-print '---> roots:', mw112.r
 print '***** MW 112 ********'
 print 'rho = %.32f' % rho
 print 'a   = %.32f' % (rho + 1)
 print 'B   = %.32f' % (tau2*rho2 + tau2*rho + tau)
 print 'y   = %.32f' % (rho2 + tau*rho)
 print '^^^^^^^^^^^^^^^^^^^^^'
+
+mw116 =  poly1d([1, 0, -2, tau - 1])
+print '---> roots:', mw116.r
+xi = mw116.r[0].real
+a = xi - 1.0/xi
+b = -xi/tau + 1.0/tau2 - 1.0/(xi*tau)
+print 'xi = %.32f' % xi
+print 'a   = %.32f' % a
+print 'B   = %.32f' % b
