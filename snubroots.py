@@ -45,3 +45,10 @@ print 'xi = %.32f' % xi
 print 'a   = %.32f' % a
 print 'B   = %.32f' % b
 print '^^^^^^^^^^^^^^^^^^^^^'
+
+a = mw111.r[3].real
+b = ((a*a/tau + tau) / (a*tau - 1.0/tau))
+print '***** MW 114 ********'
+print 'a = %.32f' % a
+print 'B = %.32f' % b
+print '^^^^^^^^^^^^^^^^^^^^^'
