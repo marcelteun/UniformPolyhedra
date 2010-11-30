@@ -10,9 +10,9 @@ _tau2 = 2 - tau
 
 # calculated with numpy from polynom with coefs: [1, 0, -2, tau - 1]
 # source: wikipedia.org
-xi = 1.22247266696100220784160228504334
+xi = -1.54887722097418323308204435306834
 a = xi - 1.0/xi
-b = -xi/tau + _tau2 - 1.0/(xi*tau)
+b = -xi/tau + 1.0/tau2 - 1.0/(xi*tau)
 
 A = [
      2*a,		 2,			 2*b,
@@ -22,22 +22,20 @@ A = [
      a - b*tau + _tau,	-a/tau - b - tau, 	-a*tau - b/tau + 1,
 ]
 
-scale = 4.31478695085 / 2
+scale = 5.39015014043 / 2
 for i in range(len(A)):
 	A[i] = A[i] / scale
 
 Pentagon = [
-	# 36 48 30 42 54
-	GeomTypes.Vec3([-A[10],	 A[9],	-A[11]]),
-	GeomTypes.Vec3([-A[4],	 A[3],	-A[5]]),
-	GeomTypes.Vec3([-A[13],	 A[12],	-A[14]]),
-	GeomTypes.Vec3([-A[7],	 A[6],	-A[8]]),
-	GeomTypes.Vec3([-A[1],	 A[0],	-A[2]]),
+	# 12 24 6 18 0
+	GeomTypes.Vec3([-A[7],	-A[6],	A[8]]),
+	GeomTypes.Vec3([-A[13],	-A[12],	A[14]]),
+	GeomTypes.Vec3([-A[4],	-A[3],	A[5]]),
+	GeomTypes.Vec3([-A[10],	-A[9],	A[11]]),
+	GeomTypes.Vec3([-A[1],	-A[0],	A[2]]),
 ]
 
 l = len(Pentagon)
-#for i in range(l):
-#    print "edge_ length:", (Pentagon[i] - Pentagon[(i+1)%l]).norm()
 
 pentagon = []
 for i in range(l):

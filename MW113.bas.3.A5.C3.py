@@ -10,9 +10,9 @@ _tau2 = 2 - tau
 
 # calculated with numpy from polynom with coefs: [1, 0, -2, tau - 1]
 # source: wikipedia.org
-xi = 1.22247266696100220784160228504334
+xi = -1.54887722097418323308204435306834
 a = xi - 1.0/xi
-b = -xi/tau + _tau2 - 1.0/(xi*tau)
+b = -xi/tau + 1.0/tau2 - 1.0/(xi*tau)
 
 A = [
      2*a,		 2,			 2*b,
@@ -22,7 +22,7 @@ A = [
      a - b*tau + _tau,	-a/tau - b - tau, 	-a*tau - b/tau + 1,
 ]
 
-scale = 4.31478695085 / 2
+scale = 5.39015014043 / 2
 for i in range(len(A)):
 	A[i] = A[i] / scale
 
@@ -43,9 +43,9 @@ Fs = [
 
 O5 = [0, tau, 1]
 
-print "Use A5xI | C3"
-print "where A5xI O3 = [1, 1, 1]"
-print "where A5xI O5 _|_ O3 =", O5
+print "Use A5 | C3"
+print "where A5 O3 = [1, 1, 1]"
+print "where A5 O5 _|_ O3 =", O5
 print "----------------------------"
 print "where C3 O3 = ", [0, _tau, tau]
 
