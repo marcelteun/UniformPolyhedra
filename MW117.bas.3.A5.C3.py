@@ -43,9 +43,9 @@ Fs = [
 
 O5 = [0, tau, 1]
 
-print "Use A5xI | C3"
-print "where A5xI O3 = [1, 1, 1]"
-print "where A5xI O5 _|_ O3 =", O5
+print "Use A5 | C3"
+print "where A5 O3 = [1, 1, 1]"
+print "where A5 O5 _|_ O3 =", O5
 print "----------------------------"
 print "where C3 O3 = ", [0, _tau, tau]
 
