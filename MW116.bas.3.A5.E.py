@@ -27,7 +27,7 @@ for i in range(len(A)):
 	A[i] = A[i] / scale
 
 Vs = [
-	# 4 14 10 ( not 8 neither 20: 2 edges 2 other: 2.44494533392)
+	# 4 14 10
 	GeomTypes.Vec3([-A[2],	-A[1],	 A[0]]),
 	GeomTypes.Vec3([-A[6],	-A[8],	 A[7]]),
 	GeomTypes.Vec3([-A[5],	-A[4],	 A[3]]),
