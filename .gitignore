@@ -1,8 +1,6 @@
 .*.swp
 *.patch
 *.bac
-*.ps
-*.pdf
 MW18.3.A5.C3.off
 MW18.3.A5.E.off
 MW18.5.A5.C5.off
@@ -185,6 +183,3 @@ MW99.5_2.A5xI.D5C5.off
 Skillings.3.A5xI.E.off
 Skillings.4.A5xI.ExI.off
 Skillings.5_2.A5xI.C5.off
-psProblem.off
-tmp0.off
-tmp1.off
